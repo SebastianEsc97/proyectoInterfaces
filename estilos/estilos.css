@@ -12,12 +12,12 @@ body {
 
 .konrad {
     width: 300px!important;
-    height: 300px!important
+    height: 250px!important
 }
 
 .col-md-3p {
     flex: 0 0 auto;
-    width: 23%
+    width: 27%
 }
 
 .bg-recording {
@@ -32,6 +32,7 @@ body {
 
 .recording {
     color: #8FA6C7!important;
+    font-family: "Garamond"!important
 }
 
 .form-control{
@@ -72,7 +73,7 @@ body {
 
 .btn-black {
     background-color: #2E2E2E!important;
-    border: inset 2px black!important
+    border: inset 2px black!important;    
 }
 
 .btn-black:hover {
@@ -81,5 +82,7 @@ body {
 }
 
 .font-recover {
-    color: #A9C4EB!important
+    color: #A9C4EB!important;
+    font-size: 20px;
+    font-family: serif!important  
 }
