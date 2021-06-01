@@ -10,13 +10,14 @@ body {
     background-color: black;
 }
 
+.konrad {
+    width: 300px!important;
+    height: 300px!important
+}
+
 .col-md-3p {
     flex: 0 0 auto;
     width: 23%
-}
-
-.recording {
-    color: #8FA6C7!important;
 }
 
 .bg-recording {
@@ -29,26 +30,19 @@ body {
     padding-top: 2.5rem!important
 }
 
-.btn-black {
-    background-color: #2E2E2E!important;
-    border: inset 2px black!important
+.recording {
+    color: #8FA6C7!important;
 }
 
-.btn-black:hover {
-    background-color: rgb(89, 88, 90)!important;
-    box-shadow: 0 0 10px 2px rgb(56, 54, 54)!important
+.form-control{
+    border-color: black!important
 }
-
-.white {
-    color: white!important
+.form-control:focus {    
+    box-shadow: 0 0 0 .2rem rgba(70, 71, 71, 0.25)!important
 }
 
 .bg-textbox {
     background-color: #3D3D3D!important
-}
-
-.font-recover {
-    color: #A9C4EB!important
 }
 
 .icono-usuario {
@@ -72,7 +66,20 @@ body {
     height: 10px!important
 }
 
-.konrad {
-    width: 300px!important;
-    height: 300px!important
+.white {
+    color: white!important
+}
+
+.btn-black {
+    background-color: #2E2E2E!important;
+    border: inset 2px black!important
+}
+
+.btn-black:hover {
+    background-color: rgb(89, 88, 90)!important;
+    box-shadow: 0 0 10px 2px rgb(56, 54, 54)!important
+}
+
+.font-recover {
+    color: #A9C4EB!important
 }
