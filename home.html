@@ -12,98 +12,113 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
-                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!--primer navbar donde se muestra el logo y tambien la parte del usuario-->
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home
-                            <span class="visually-hidden">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"><img id="imageHome" src="imagenes/Simbolo Konrad.png"
+                        alt="logo konrad"></a>
+                <ul class="navbar-nav">
+                    <li class="text-end">
+                        <div>
+                            <img id="imageUser" src="imagenes/Simbolo Usuario.png" alt="logo usuario">
                         </div>
                     </li>
                     <li class="nav-item dropdown" id="dropdown">
-                        <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Usuario</a>
+                        <a class="nav-link dropdown-toggle " id="textUser" data-bs-toggle="dropdown" href="#"
+                            role="button" aria-haspopup="true" aria-expanded="false">Usuario</a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Perfil</a>
-                          <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                          <a class="dropdown-item" href="#">Configuración</a>
-                          <a class="dropdown-item" href="#">Acerca de</a>
-                          <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
-                      </li>
+                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
+                            <a class="dropdown-item" href="#">Configuración</a>
+                            <a class="dropdown-item" href="#">Acerca de</a>
+                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <nav class="navbar navbar-expand-lg" id="navbar2">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown" id="dropdown">
-                    <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Perfil</a>
-                      <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                      <a class="dropdown-item" href="#">Configuración</a>
-                      <a class="dropdown-item" href="#">Acerca de</a>
-                      <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
-                  </li>
-                  <li class="nav-item dropdown" id="dropdown">
-                    <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Fotos</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Perfil</a>
-                      <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                      <a class="dropdown-item" href="#">Configuración</a>
-                      <a class="dropdown-item" href="#">Acerca de</a>
-                      <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
-                  </li>
-                  <li class="nav-item dropdown" id="dropdown">
-                    <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Documentos</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Perfil</a>
-                      <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                      <a class="dropdown-item" href="#">Configuración</a>
-                      <a class="dropdown-item" href="#">Acerca de</a>
-                      <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
-                  </li>
-                  <li class="nav-item dropdown" id="dropdown">
-                    <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tutoriales</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Perfil</a>
-                      <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                      <a class="dropdown-item" href="#">Configuración</a>
-                      <a class="dropdown-item" href="#">Acerca de</a>
-                      <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
-                  </li>
-            </ul>
+
+    <!--Segundo navabar donde se meustran los distintos recursos de la página-->
+    <div class="border navbar2">
+        <nav class="navbar navbar-expand-lg container-fluid">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Cursos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
+                            <a class="dropdown-item" href="#">Configuración</a>
+                            <a class="dropdown-item" href="#">Acerca de</a>
+                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Fotos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
+                            <a class="dropdown-item" href="#">Configuración</a>
+                            <a class="dropdown-item" href="#">Acerca de</a>
+                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Documentos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
+                            <a class="dropdown-item" href="#">Configuración</a>
+                            <a class="dropdown-item" href="#">Acerca de</a>
+                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Tutoriales</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
+                            <a class="dropdown-item" href="#">Configuración</a>
+                            <a class="dropdown-item" href="#">Acerca de</a>
+                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+
+    <!--parte donde estan los videos -->
+    <div class="container partOne">
+        <div class="row">
+            <div class="col-lg-4 border">
+                <p>Ultimas Grabaciones Publicadas</p>
+                <div class="border outLine">
+das
+daw
+dawf
+
+
+                </div>
+            </div>
+            <div class="col-lg-8 border">
+                <div class=" border outLine">
+dadadad
+dadadada
+dadadad
+                </div>
+            </div>
         </div>
-    </nav>
-
-
+    </div>
+</body>
 
 </html>
