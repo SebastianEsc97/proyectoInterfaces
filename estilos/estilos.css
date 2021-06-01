@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin:auto;
+    margin-top: 150px;
+    background-color: black;
+}
+
+.recording{
+    color: #8FA6C7!important;
+    box-shadow: 1px grey!important
+}
+
+.bg-recording{
+    background-color: #1A1A1A!important;
+    border: 5px #2D2B42!important
+}
+
