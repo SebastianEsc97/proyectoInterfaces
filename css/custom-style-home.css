@@ -1,11 +1,37 @@
 #imageHome{
-    height: 30mm;
+    height: 27mm;
     padding-top: 0;
     padding-bottom: 0;
     margin-right: 0;
 }
+#imageUser{
+    height: 9mm;
 
-#dropdown{
-    margin-right: 29px;
+
 }
+#dropdown{
+    margin-right: 70px;
+}
+
+.text{
+    color: white;
+    border: white;
+    text-align: center;
+}
+#navbar{
+        background-color: black;
+}
+#navbar2{
+    margin-left: 15%;
+    border: white;
+    background-color: #1a1a1a;
+}
+body{
+    background-color: black;
+}
+
+.backgroundNavbar{
+    background-color: black!important
+}
+
 
