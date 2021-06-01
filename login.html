@@ -12,35 +12,41 @@
 </head>
 
 <body class="container-fluid">
-    <div id="contenedor" class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <div class="col text-center">
-                    <img width="200" height="200" src="imagenes/Simbolo Konrad.png">
+                    <img class="konrad" src="imagenes/Simbolo Konrad.png">
                 </div>
                 <div>
-                    <form id="formulario" class="col-md-4 my-auto mx-auto bg-recording mt-5 rounded-4">
-                        <div class="mt-2 mb-2 text-center recording">
-                            <h3>U. Recordings</h3>
+                    <form id="formulario" class="col-md-3p my-auto mx-auto bg-recording mt-3">
+                        <div class="mt-2 pb-4 pt-4p text-center recording">
+                            <font face="Garamond">
+                                <h1>U. Recordings</h1>
+                            </font>
                         </div>
-                        <div class="mb-3">
-                            <img src=""><label for="exampleInputEmail1" class="form-label font-weight-bold">Usuario</label>
-                            <input type="email" class="form-control bg-secondary " id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                        <div class="mb-3 px-4">
+                            <label for="exampleInputEmail1"
+                                class="form-label font-weight-bold text-light mb-0">Usuario</label>
+                            <input type="email" class="form-control bg-textbox text-light icono-usuario"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="mb-3">
-                            <img src=""><label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
-                            <input type="password" class="form-control bg-secondary" id="exampleInputPassword1">
+                        <div class="mb-3 px-4">
+                            <label for="exampleInputPassword1"
+                                class="form-label font-weight-bold text-light mb-0">Contraseña</label>
+                            <input type="password" class="form-control bg-textbox text-light icono-contraseña"
+                                id="exampleInputPassword1">
                         </div>
-                        <div class="container my-5 col-md-4">
-                            <div class="row justify-content-center ">
-                                <a href="home.html" class="text-muted text-decoration-none"><button type="submit"
-                                        class="btn btn-dark btn-outline-dark">Acceder</a></button>
+                        <div class="container my-2 pb-3 col-md-5">
+                            <div class="row justify-content-center">
+                                <a href="home.html" class="text-muted text-decoration-none white"><button type="submit"
+                                        class="btn btn-black py-1">Acceder</a></button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
+            <a class="text-center text-muted text-decoration-none font-recover mt-4" href="#">Recuperar Contraseña</a>
         </div>
     </div>
 

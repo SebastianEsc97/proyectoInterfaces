@@ -1855,7 +1855,7 @@ progress {
     color: #212529;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid #000000;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -1880,9 +1880,9 @@ progress {
 .form-control:focus {
     color: #212529;
     background-color: #fff;
-    border-color: #86b7fe;
+    border-color: #000000ea;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25)
+    box-shadow: 0 0 0 .2rem rgba(90, 92, 95, 0.25)
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2938,7 +2938,7 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: #212529;
     border-color: #212529
 }
@@ -7490,11 +7490,6 @@ textarea.form-control-lg {
 
 .rounded-3 {
     border-radius: .3rem!important
-}
-
-.rounded-4 {
-    border-radius: 40px!important;
-    border: 5px purple!important
 }
 
 .rounded-circle {

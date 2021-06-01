@@ -1,22 +1,78 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-body{
-    margin:auto;
-    margin-top: 150px;
+
+body {
+    margin: auto;
+    margin-top: 1.5rem;
     background-color: black;
 }
 
-.recording{
+.col-md-3p {
+    flex: 0 0 auto;
+    width: 23%
+}
+
+.recording {
     color: #8FA6C7!important;
-    box-shadow: 1px grey!important
 }
 
-.bg-recording{
+.bg-recording {
     background-color: #1A1A1A!important;
-    border: 5px #2D2B42!important
+    box-shadow: inset 0 0 0 3px #2D2B42!important;
+    border-radius: 40px!important;
 }
 
+.pt-4p {
+    padding-top: 2.5rem!important
+}
+
+.btn-black {
+    background-color: #2E2E2E!important;
+    border: inset 2px black!important
+}
+
+.btn-black:hover {
+    background-color: rgb(89, 88, 90)!important;
+    box-shadow: 0 0 10px 2px rgb(56, 54, 54)!important
+}
+
+.white {
+    color: white!important
+}
+
+.bg-textbox {
+    background-color: #3D3D3D!important
+}
+
+.font-recover {
+    color: #A9C4EB!important
+}
+
+.icono-usuario {
+    background: url("../imagenes/Simbolo Usuario2.png") no-repeat left top, #3D3D3D!important;
+    background-size: auto, auto!important;
+    padding: 8px!important;
+    background-size: 40px!important;
+    padding-left: 40px!important
+}
+
+.icono-contraseña {
+    background: url("../imagenes/Simbolo Contraseña.png") no-repeat left top, #3D3D3D!important;
+    background-size: auto, auto!important;
+    padding: 8px!important;
+    background-size: 40px!important;
+    padding-left: 40px!important
+}
+
+.imgp {
+    width: 10px!important;
+    height: 10px!important
+}
+
+.konrad {
+    width: 300px!important;
+    height: 300px!important
+}
