@@ -26,7 +26,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown" id="dropdown">
-                        <a class="nav-link dropdown-toggle " id="textUser" data-bs-toggle="dropdown" href="#"
+                        <a class="nav-link dropdown-toggle" id="textUser" data-bs-toggle="dropdown" href="#"
                             role="button" aria-haspopup="true" aria-expanded="false">Usuario</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Perfil</a>
@@ -51,44 +51,39 @@
                         <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Cursos</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Perfil</a>
-                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                            <a class="dropdown-item" href="#">Configuración</a>
-                            <a class="dropdown-item" href="#">Acerca de</a>
-                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                            <a class="dropdown-item" href="#">Curso1</a>
+                            <a class="dropdown-item" href="#">Curso2</a>
+                            <a class="dropdown-item" href="#">Curso3</a>
+                            <a class="dropdown-item" href="#">Curso4</a>
+                            <a class="dropdown-item" href="#">Curso5</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Fotos</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Perfil</a>
-                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                            <a class="dropdown-item" href="#">Configuración</a>
-                            <a class="dropdown-item" href="#">Acerca de</a>
-                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                            <a class="dropdown-item" href="#">album</a>
+                            <a class="dropdown-item" href="#">Favoritas</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Documentos</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Perfil</a>
-                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                            <a class="dropdown-item" href="#">Configuración</a>
-                            <a class="dropdown-item" href="#">Acerca de</a>
-                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                            <a class="dropdown-item" href="#">Documento1</a>
+                            <a class="dropdown-item" href="#">Documento2</a>
+                            <a class="dropdown-item" href="#">Documento3</a>
+                            <a class="dropdown-item" href="#">Documento4</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Tutoriales</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Perfil</a>
-                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                            <a class="dropdown-item" href="#">Configuración</a>
-                            <a class="dropdown-item" href="#">Acerca de</a>
-                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                            <a class="dropdown-item" href="#">Tutoriale1</a>
+                            <a class="dropdown-item" href="#">Tutoriale2</a>
+                            <a class="dropdown-item" href="#">Tutoriale3</a>
+                            <a class="dropdown-item" href="#">Tutoriale4</a>
                         </div>
                     </li>
                 </ul>
@@ -97,24 +92,103 @@
     </div>
     <br>
 
-    <!--parte donde estan los videos -->
-    <div class="container partOne">
+    <!--parte donde estan los videos, parte de la izquierda -->
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4 border">
-                <p>Ultimas Grabaciones Publicadas</p>
-                <div class="border outLine">
-das
-daw
-dawf
-
-
+            <div class="col-lg-4">
+                <div class="outLine">
+                    <h1>Ultimas Grabaciones Publicadas</h1>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="recording" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
+                        </div>
+                        <div class="col-lg-8 textRecording">
+                            <p>Nom. Materia</p>
+                            <p>Fecha Publicación</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="recording" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
+                        </div>
+                        <div class="col-lg-8 textRecording">
+                            <p>Nom. Materia</p>
+                            <p>Fecha Publicación</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="recording" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
+                        </div>
+                        <div class="col-lg-8 textRecording">
+                            <p>Nom. Materia</p>
+                            <p>Fecha Publicación</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="recording" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
+                        </div>
+                        <div class="col-lg-8 textRecording">
+                            <p>Nom. Materia</p>
+                            <p>Fecha Publicación</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="nav-link" id="textFavorite" href="favoritos.html" role="button"
+                            aria-haspopup="true" aria-expanded="false">Favoritos<img id="imageArrow" src="imagenes/imagen flecha.png" alt="imagen flecha"></a>
+                        </button>
+                      </div>
                 </div>
             </div>
-            <div class="col-lg-8 border">
-                <div class=" border outLine">
-dadadad
-dadadada
-dadadad
+
+    <!--parte donde estan los cursos y videos de la semana, parte de la derecha-->
+            <div class="col-lg-8">
+                <div class="outLine">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <img id="books" src="imagenes/imagen libros.png" alt="simbolo de libros">
+                        </div>
+                        <div class="col-lg-10" id="text2">
+                            <p>Cod. Curso-Nom. Materia</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h2>
+                        Número de semana-Tema visto en la semana
+                    </h2>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <img class="recording" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
+                        </div>
+                        <div class="col-lg-10 textRecording2">
+                            <p>Clase #1</p>
+                            <p>Fecha Publicación</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <img class="recording" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
+                        </div>
+                        <div class="col-lg-10 textRecording2">
+                            <p>Clase #2</p>
+                            <p>Fecha Publicación</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h2>
+                        Número de semana-Tema visto en la semana
+                    </h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <img class="recording" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
+                        </div>
+                        <div class="col-lg-10 textRecording2">
+                            <p>Clase #3</p>
+                            <p>Fecha Publicación</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
