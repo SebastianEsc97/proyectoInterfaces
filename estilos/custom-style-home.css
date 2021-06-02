@@ -36,14 +36,24 @@
     margin-top: 3%;
 }
 
+.textFavoriteReturn{
+    color: white;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    margin-left: 3%;
+    margin-right: 70%;
+
+}
 #textFavorite{
     color: white;
     text-align: left;
     color: white;
     font-size: 30px;
     margin-left: 3%;
-
+    margin-right: 61%;
 }
+
 #navbar1{
         background-color: black;
 }
@@ -108,4 +118,8 @@ h2{
     margin-top: 3%;
     color: white;
     font-size: 28px;
+}
+
+#void{
+    padding: 33px;
 }
