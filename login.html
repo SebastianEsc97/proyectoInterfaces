@@ -8,45 +8,43 @@
     <title>Login</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="js/validaciones.js"></script>
 </head>
 
 <body class="container-fluid">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <div class="col text-center">
-                    <img class="konrad" src="imagenes/Simbolo Konrad.png">
-                </div>
-                <div>
-                    <form id="formulario" class="col-md-3p py-4 mx-auto bg-recording mt-3">
-                        <div class="mt-2 pb-4 pt-4p text-center recording">                        
-                                <h1>U. Recordings</h1>                         
-                        </div>
-                        <div class="mb-3 px-5">
-                            <label for="exampleInputEmail1"
-                                class="form-label font-weight-bold text-light mb-0">Usuario</label>
-                            <input type="email" class="form-control bg-textbox text-light icono-usuario"
-                                id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3 px-5">
-                            <label for="exampleInputPassword1"
-                                class="form-label font-weight-bold text-light mb-0">Contraseña</label>
-                            <input type="password" class="form-control bg-textbox text-light icono-contraseña"
-                                id="exampleInputPassword1">
-                        </div>
-                        <div class="container col-md-5">
-                            <div class="row justify-content-center">
-                                <a href="home.html" class="text-muted text-decoration-none white"><button type="submit"
-                                        class="btn btn-black py-1">Acceder</a></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <b class="text-center pt-4"><a class="text-muted text-decoration-none font-recover" href="#">Recuperar
-                    Contraseña</a></b>
-        </div>
-    </div>
 
+    <div class="row align-items-stretch">
+        <div class="col">
+            <div class="text-center w-100 col-8 col-sm-8 col-lg-5 col-xl-4 col-xxl-4">
+                <img class="konrad" src="imagenes/Simbolo Konrad.png">
+            </div>
+            <div>
+                <form method="POST" action="home.html" onsubmit="return validacion();"
+                    class="col-md-3p py-4 mt-3 mx-auto bg-recording">
+                    <div class="pb-3 pt-4p text-center recording">
+                        <h1>U. Recordings</h1>
+                    </div>
+                    <div class="mb-3 px-5 col-sm-12 col-12">
+                        <label for="usuario" class="form-label font-weight-bold text-light mb-0">Usuario</label>
+                        <input type="email" class="form-control bg-textbox text-light icono-usuario d-sm-12 "
+                            id="usuario" name="usuario">
+                    </div>
+                    <div class="mb-3 px-5 col-sm-12">
+                        <label for="usuario" class="form-label font-weight-bold text-light mb-0">Contraseña</label>
+                        <input type="password" class="form-control bg-textbox text-light icono-contraseña"
+                            id="contraseña" name="contraseña">
+                    </div>
+                    <div class="container col-md-6 col-sm-7 col-3">
+                        <div class="row justify-content-center">
+                            <button type="submit" class="btn py-1 btn-black white">Acceder</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <b class="text-center pt-4"><a class="text-muted text-decoration-none font-recover" href="#">Recuperar
+                Contraseña</a></b>
+    </div>
 </body>
+
 </html>

@@ -27,12 +27,13 @@ body {
 }
 
 .pt-4p {
-    padding-top: 2.5rem!important
+    padding-top: 1.1rem!important
 }
 
 .recording {
     color: #8FA6C7!important;
-    font-family: "Garamond"!important
+    font-family: "Garamond"!important;
+    font-size: 100px!important
 }
 
 .form-control{
@@ -73,7 +74,8 @@ body {
 
 .btn-black {
     background-color: #2E2E2E!important;
-    border: inset 2px black!important;    
+    border: inset 2px black!important;
+    color: white!important
 }
 
 .btn-black:hover {
