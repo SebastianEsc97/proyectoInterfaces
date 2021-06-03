@@ -7,6 +7,19 @@
 body {
     margin: auto;
     margin-top: 1.5rem;
+    background-color: black;
+}
+
+.btn-dia{
+    background-color: white;
+}
+
+.btn-noche{
+    background-color: black;
+}
+
+.titulocolor-1{
+    color: yellow;
 }
 
 .konrad {
@@ -113,8 +126,170 @@ body {
     font-size: 30px!important
 }
 
-.navbar-toggler-color {
-    border-color: transparent!important;
-    border: 0px !important;
-    border: inset 0px!important
+@media(max-width: 1570px){
+    .titulo-izquierdo {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 30px!important
+    }
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 28px!important;
+        margin-left: 15px !important
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 24px!important;
+        margin-left: 15px !important
+    }
+}
+
+@media(max-width: 1476px){
+    .titulo-izquierdo {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 30px!important
+    }
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 28px!important;
+        margin-left: 30px !important
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 24px!important;
+        margin-left: 30px !important
+    }
+}
+@media(max-width: 1291px){
+    .titulo-izquierdo {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 25px!important
+    }
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 20px!important;
+        margin-left: 50px !important
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 20px!important;
+        margin-left: 50px !important
+    }
+}
+
+@media(max-width: 1105px){
+    .titulo-izquierdo {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 20px!important
+    }
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 18px!important;
+        margin-left: 70px !important
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 18px!important;
+        margin-left: 70px !important
+    }
+}
+
+@media(max-width: 965px){
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 14px!important;
+        margin-left: 34px !important;
+        margin-top: 40px;
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 14px!important;
+        margin-left: 34px !important;
+
+    }
+}
+
+@media(max-width: 850px){
+    .titulo-izquierdo {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 17px!important
+    }
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 12px!important;
+        margin-left: 50px !important;
+        margin-top: 40px;
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 12px!important;
+        margin-left: 50px !important
+    }
+}
+@media(max-width: 767px){
+    .titulo-izquierdo {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 35px!important
+    }
+    
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 28px!important;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 35% !important
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 24px!important;
+        margin-top: 0;
+        margin-left: 35% !important
+
+    }
+}
+@media(max-width: 649px){
+
+    .nom-materia {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 28px!important;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 30% !important
+    }
+    
+    .fecha-publicacion {
+        color: #CCE5FF!important;
+        font-family: "Garamond"!important;
+        font-size: 24px!important;
+        margin-top: 0;
+        margin-left: 30% !important
+
+    }
 }

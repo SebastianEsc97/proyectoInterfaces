@@ -22,7 +22,9 @@
                 <a class="navbar-brand" href="homep.html"><img id="imageHome" src="imagenes/Simbolo Konrad.png"
                         alt="logo konrad"></a>
                 <button type="button" class="btn btn-outline-secondary" id="noche" onclick="noche();">Noche</button>
-                <button type="button" class="btn btn-outline-light" id="dia" onclick="dia();">Día</button>
+                <button type="button" class="btn btn-outline-secondary" id="dia" onclick="dia();">Día</button>
+                <button type="button" class="btn btn-outline-primary" id="titulocolor-1" onclick="titulocolor1();">Titulos color 1</button>
+                <button type="button" class="btn btn-outline-primary" id="titulocolor-2" onclick="titulocolor2();">Titulos color 2</button>
                 <ul class="navbar-nav">
                     <li class="text-end">
                         <div>
@@ -33,11 +35,11 @@
                         <a class="nav-link dropdown-toggle" id="textUser" data-bs-toggle="dropdown" href="#"
                             role="button" aria-haspopup="true" aria-expanded="false">Usuario</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Perfil</a>
-                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
-                            <a class="dropdown-item" href="#">Configuración</a>
-                            <a class="dropdown-item" href="#">Acerca de</a>
-                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                            <a class="dropdown-item titulocolor-1" href="#">Perfil</a>
+                            <a class="dropdown-item titulocolor-1" href="favoritos.html">Favoritos</a>
+                            <a class="dropdown-item titulocolor-1" href="#">Configuración</a>
+                            <a class="dropdown-item titulocolor-1" href="#">Acerca de</a>
+                            <a class="dropdown-item titulocolor-1" href="login.html">Cerrar Sesión</a>
                         </div>
                     </li>
                 </ul>
@@ -57,18 +59,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown titulocolor-1">
                             <a class="nav-link dropdown-toggle text white" data-bs-toggle="dropdown" href="#"
                                 role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Curso1</a>
-                                <a class="dropdown-item" href="#">Curso2</a>
-                                <a class="dropdown-item" href="#">Curso3</a>
-                                <a class="dropdown-item" href="#">Curso4</a>
-                                <a class="dropdown-item" href="#">Curso5</a>
+                                <a class="dropdown-item" href="home.html">Curso1</a>
+                                <a class="dropdown-item" href="home.html">Curso2</a>
+                                <a class="dropdown-item" href="home.html">Curso3</a>
+                                <a class="dropdown-item" href="home.html">Curso4</a>
+                                <a class="dropdown-item" href="home.html">Curso5</a>
                             </div>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown titulocolor-1">
                             <a class="nav-link dropdown-toggle text white" data-bs-toggle="dropdown" href="#"
                                 role="button" aria-haspopup="true" aria-expanded="false">Foros</a>
                             <div class="dropdown-menu">
@@ -80,7 +82,7 @@
 
                             </div>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown titulocolor-1">
                             <a class="nav-link dropdown-toggle text white" data-bs-toggle="dropdown" href="#"
                                 role="button" aria-haspopup="true" aria-expanded="false">Documentos</a>
                             <div class="dropdown-menu">
@@ -91,7 +93,7 @@
                                 <a class="dropdown-item" href="#">Documento5</a>
                             </div>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown titulocolor-1">
                             <a class="nav-link dropdown-toggle text white" data-bs-toggle="dropdown" href="#"
                                 role="button" aria-haspopup="true" aria-expanded="false">Tutoriales</a>
                             <div class="dropdown-menu">
@@ -108,55 +110,56 @@
         </nav>
     </div>
     <br>
+    <br>
 
     <!--parte donde estan los videos, parte de la izquierda -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="void3">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="outLine titulo-l ">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="outLine titulo-l titulocolor-1">
                     <h1 class="text-center titulo-izquierdo">Ultimas Grabaciones Publicadas.</h1>
                     <div class="row">
-                        <div class="col-lg-4">
-                            <a href="home.html"><img class="recording" src="imagenes/Simbolo Grabacion.png"
+                        <div class="text-center col-md-4 col-lg-4">
+                            <a href="home.html"><img class="recording2" src="imagenes/Simbolo Grabacion.png"
                                     alt="simbolo de grabación"></a>
                         </div>
-                        <div class="col-lg-8 textRecording">
+                        <div class="col-md-8 col-lg-8 ">
                             <p class="nom-materia ps-3">Nom. Materia</p>
                             <p class="fecha-publicacion ps-3">Fecha Publicación</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4">
-                            <a href="home.html"><img class="recording" src="imagenes/Simbolo Grabacion.png"
+                        <div class="text-center col-md-4 col-lg-4">
+                            <a href="home.html"><img class="recording2" src="imagenes/Simbolo Grabacion.png"
                                     alt="simbolo de grabación"></a>
                         </div>
-                        <div class="col-lg-8 textRecording">
+                        <div class="col-md-8 col-lg-8 ">
+                            <p class="nom-materia ps-3">Nom. Materia</p>
+                            <p class=" fecha-publicacion ps-3">Fecha Publicación</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center col-md-4 col-lg-4">
+                            <a href="home.html"><img class="recording2" src="imagenes/Simbolo Grabacion.png"
+                                    alt="simbolo de grabación"></a>
+                        </div>
+                        <div class="col-md-8 col-lg-8 ">
                             <p class="nom-materia ps-3">Nom. Materia</p>
                             <p class="fecha-publicacion ps-3">Fecha Publicación</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4">
-                            <a href="home.html"><img class="recording" src="imagenes/Simbolo Grabacion.png"
+                        <div class="text-center col-md-4 col-lg-4">
+                            <a href="home.html"><img class="recording2" src="imagenes/Simbolo Grabacion.png"
                                     alt="simbolo de grabación"></a>
                         </div>
-                        <div class="col-lg-8 textRecording">
-                            <p class="nom-materia ps-3">Nom. Materia</p>
-                            <p class="fecha-publicacion ps-3">Fecha Publicación</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <a href="home.html"><img class="recording" src="imagenes/Simbolo Grabacion.png"
-                                    alt="simbolo de grabación"></a>
-                        </div>
-                        <div class="col-lg-8 textRecording">
+                        <div class="col-md-8 col-lg-8">
                             <p class="nom-materia ps-3">Nom. Materia</p>
                             <p class="fecha-publicacion ps-3">Fecha Publicación</p>
                         </div>
                     </div>
                     <div>
-                        <a class="nav-link btn-favoritos ps-3" id="textFavorite" href="favoritos.html" role="button"
+                        <a class="text-center nav-link btn-favoritos ps-3" id="textFavorite" href="favoritos.html" role="button"
                             aria-haspopup="true" aria-expanded="false">Favoritos<img id="imageArrow"
                                 src="imagenes/imagen flecha.png" alt="imagen flecha"></a>
                         </button>
@@ -165,10 +168,10 @@
             </div>
 
             <!--parte donde estan los cursos y videos de la semana, parte de la derecha-->
-            <div class="col-lg-8">
+            <div class="col-sm-12 col-md-8 col-lg-8">
                 <div class="outLine">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 titulocolor-1">
                             <img id="books" src="imagenes/imagen libros.png" alt="simbolo de libros"><br>
                             <a href="home.html" class="text-decoration-none">
                                 <p class="btn-favoritos ps-5">Cod. Curso-Nom. Materia</p>
@@ -191,7 +194,7 @@
             </div>
         </div>
     </div>
-    <script src="js/botones.js"></script>
+    
 </body>
 
 </html>

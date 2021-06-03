@@ -1,3 +1,5 @@
+
+
 #imageHome{
     height: 27mm;
     padding-top: 0;
@@ -21,22 +23,22 @@
 }
 
 h2{
+    color: #CCE5FF;
     font-family: "Garamond";
-    color: white;
     font-size: 25px;
     margin-left: 3%;
     margin-right: 5%;
 }
 
 h1{
+    color: #CCE5FF;
     font-family: "Garamond";
     font-size: 25px;
-    color: white;
 }
 
 .text{
+    color: #CCE5FF;
     font-family: "Garamond";
-    color: white;
     text-align: center;
     margin-right: 50px;
     margin-left: 50px;
@@ -45,59 +47,57 @@ h1{
 }
 
 .textRecording2{
+    color: #CCE5FF;
     font-family: "Garamond";
     margin-left: 0;
     margin-top: 2%;
-    color: white;
     font-size: 25px;
 }
 
 .textFavoriteReturn{
+    color: #CCE5FF;
     font-family: "Garamond";
-    color: white;
     text-align: left;
-    color: white;
     font-size: 30px;
     margin-left: 3%;
     margin-right: 70%;
 }
 
 .textRecording3{
+    color: #CCE5FF;
     font-family: "Garamond";
     margin-top: 0;
-    color: white;
     font-size: 23px;
     text-align: center;
 }
 
 .textRecording{
+    color: #CCE5FF;
     font-family: "Garamond";
     margin-left: 0;
     margin-top: 5%;
-    color: white;
     font-size: 23px;
 }
 
 #textFavorite{
+    color: #CCE5FF;
     font-family: "Garamond";
-    color: white;
     text-align: left;
-    color: white;
     font-size: 30px;
     margin-left: 3%;
     margin-right: 61%;
 }
 
 #text2{
+    color: #CCE5FF;
     font-family: "Garamond";
     margin-top: 3%;
-    color: white;
     font-size: 28px;
 }
 
 #textUser{
+    color: #CCE5FF;
     font-family: "Garamond";
-    color: white;
     border: white;
     text-align: center;
     font-size: 23px;
@@ -114,8 +114,15 @@ h1{
 
 }
 
+.navbar-toggler-color{
+    border-color: transparent!important;
+    border: 0px !important;
+    border: inset 0px!important
+}
+
 body{
-    background-color: black;
+    margin: 0 !important;
+    width: 100% !important
 }
 
 
@@ -134,15 +141,21 @@ body{
 }
 
 .recording{
-    height: 142px;
+    height: 130px;
     margin-bottom: 12px;
+    margin-left: 1px;
 }
 
 .recording2{
-    height: 142px;
-    margin-bottom: 1px;    
-    align-items: center;
-    margin-left: 13%;
+    height: 130px;
+    margin-bottom: 12px;
+    margin-left: 1px;
+}
+
+.recording3{
+    height: 130px;
+    margin-bottom: 12px;
+    margin-left: 50px;
 }
 
 #void{
@@ -151,4 +164,132 @@ body{
 
 #void2{
     margin-top: 104px;
+}
+
+#void3{
+    padding: 34px;
+}
+
+@media(max-width: 1719px){
+
+    .textRecording2{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-left: 15px;
+        margin-top: 12px;
+
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width: 1607px){
+    .textRecording2{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-left: 30px;
+        margin-top: 12px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 1457px){
+    .textRecording2{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-left: 50px;
+        margin-top: 12px;
+        font-size: 25px;
+    }
+
+}
+@media(max-width: 1247px){
+    .textRecording2{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-left: 75px;
+        margin-top: 12px;
+        font-size: 25px;
+    }
+    #text2{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 5%;
+        font-size: 28px;
+    }
+}
+@media(max-width: 1147px){
+    .textRecording2{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-left: 100px;
+        margin-top: 12px;
+        font-size: 25px;
+    }
+    #text2{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 5%;
+        font-size: 28px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 1695px){
+    #textFavorite{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        text-align: left;
+        font-size: 30px;
+        margin-left: 3%;
+        margin-right: 50%;
+    }
+}
+
+@media(max-width: 1307px){
+    #textFavorite{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        text-align: left;
+        font-size: 30px;
+        margin-left: 3%;
+        margin-right: 30%;
+    }
+}
+@media(max-width: 944px){
+    #textFavorite{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        text-align: left;
+        font-size: 30px;
+        margin-left: 3%;
+        margin-right: 10%;
+    }
+}
+
+@media(max-width: 965px){
+    .recording2{
+        height: 100px;
+        margin-top: 31px;
+    }
+}
+
+@media(max-width: 767px){
+    .recording2{
+        height: 150px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }   
+    .textRecording{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        font-size: 23px;
+    }
+}
+@media(max-width: 991px){
+    .navbar2{
+        margin-left: 0 !important;
+        background-color: #1a1a1a !important;
+    
+    }
 }
