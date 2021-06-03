@@ -36,10 +36,11 @@ body {
     font-size: 100px!important
 }
 
-.form-control{
+.form-control {
     border-color: black!important
 }
-.form-control:focus {    
+
+.form-control:focus {
     box-shadow: 0 0 0 .2rem rgba(70, 71, 71, 0.25)!important
 }
 
@@ -86,5 +87,29 @@ body {
 .font-recover {
     color: #A9C4EB!important;
     font-size: 20px;
-    font-family: serif!important  
+    font-family: serif!important
+}
+
+.titulo-izquierdo {
+    color: #CCE5FF!important;
+    font-family: "Garamond"!important;
+    font-size: 35px!important
+}
+
+.nom-materia {
+    color: #CCE5FF!important;
+    font-family: "Garamond"!important;
+    font-size: 28px!important
+}
+
+.fecha-publicacion {
+    color: #CCE5FF!important;
+    font-family: "Garamond"!important;
+    font-size: 24px!important
+}
+
+.btn-favoritos{
+    color: #CCE5FF!important;
+    font-family: "Garamond"!important;
+    font-size: 30px!important
 }
