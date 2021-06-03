@@ -173,6 +173,10 @@ body{
     padding: 34px;
 }
 
+#mostrar{
+    display: block;
+}
+
 @media(max-width: 1719px){
 
     .textRecording2{

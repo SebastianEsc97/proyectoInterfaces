@@ -131,7 +131,7 @@ body {
 
 @media(max-width: 1570px){
     .titulo-izquierdo {
-        color: #CCE5FF!important;
+        color: #CCE5FF;
         font-family: "Garamond"!important;
         font-size: 30px!important
     }

@@ -14,12 +14,22 @@ function dia() {
     document.querySelector("#textUser").style.color = "#000";
 }
 
-function titulocolor1(){
+function titulocolor1() {
     document.body.className = "titulocolor-1";
-    document.querySelector("#titulocolor-1").style.color = "black";
+    document.querySelector("#titulocolorIzquierda").style.color = "black !important";
+    document.querySelector("#titulocolorIzquierda").setAttribute("style","color: black !important")
 }
 
 function titulocolor2(){
     document.body.className = "titulocolor-2";
-    document.querySelector("#titulocolor-2").style.color = "red";
+    document.querySelector("#titulocolor-2").style.color = "red !important";
+    document.querySelector("#titulocolorIzquierda").setAttribute("style","color: #CCE5FF !important")
+}
+
+function ocultar(){
+    document.getElementById('mostrar').style.display= 'none';
+}
+
+function mostrar(){
+    document.getElementById('mostrar').style.display= 'block';
 }
