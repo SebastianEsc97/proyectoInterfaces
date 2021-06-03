@@ -20,7 +20,22 @@
     height: 120px;
 }
 
+h2{
+    font-family: "Garamond";
+    color: white;
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+h1{
+    font-family: "Garamond";
+    font-size: 25px;
+    color: white;
+}
+
 .text{
+    font-family: "Garamond";
     color: white;
     text-align: center;
     margin-right: 150px;
@@ -28,30 +43,65 @@
     border: white;
     font-size: 20px;
 }
-#textUser{
+
+.textRecording2{
+    font-family: "Garamond";
+    margin-left: 0;
+    margin-top: 2%;
     color: white;
-    border: white;
-    text-align: center;
-    font-size: 23px;
-    margin-top: 3%;
+    font-size: 25px;
 }
 
 .textFavoriteReturn{
+    font-family: "Garamond";
     color: white;
     text-align: left;
     color: white;
     font-size: 30px;
     margin-left: 3%;
     margin-right: 70%;
-
 }
+
+.textRecording3{
+    font-family: "Garamond";
+    margin-top: 0;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.textRecording{
+    font-family: "Garamond";
+    margin-left: 0;
+    margin-top: 5%;
+    color: white;
+    font-size: 23px;
+}
+
 #textFavorite{
+    font-family: "Garamond";
     color: white;
     text-align: left;
     color: white;
     font-size: 30px;
     margin-left: 3%;
     margin-right: 61%;
+}
+
+#text2{
+    font-family: "Garamond";
+    margin-top: 3%;
+    color: white;
+    font-size: 28px;
+}
+
+#textUser{
+    font-family: "Garamond";
+    color: white;
+    border: white;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 3%;
 }
 
 #navbar1{
@@ -83,43 +133,22 @@ body{
     background-color: #1a1a1a;
 }
 
-h1{
-    font-size: 25px;
-    color: white;
-}
-
-h2{
-    color: white;
-    font-size: 25px;
-    margin-left: 3%;
-}
-
-.titulo-l
-
 .recording{
-    height: 150px;
+    height: 142px;
     margin-bottom: 12px;
 }
 
-.textRecording{
-    margin-left: 0;
-    margin-top: 5%;
-    color: white;
-    font-size: 23px;
-}
-.textRecording2{
-    margin-left: 0;
-    margin-top: 2%;
-    color: white;
-    font-size: 25px;
-}
-
-#text2{
-    margin-top: 3%;
-    color: white;
-    font-size: 28px;
+.recording2{
+    height: 142px;
+    margin-bottom: 1px;    
+    align-items: center;
+    margin-left: 13%;
 }
 
 #void{
-    padding: 33px;
+    padding: 34px;
+}
+
+#void2{
+    margin-top: 104px;
 }
