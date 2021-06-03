@@ -293,3 +293,151 @@ body{
     
     }
 }
+
+@media(max-width: 1650px){
+    .recording3{
+        height: 130px;
+        margin-bottom: 12px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 1593px){
+    .textFavoriteReturn{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        text-align: left;
+        font-size: 30px;
+        margin-left: 3%;
+        margin-right: 50%;
+    }
+}
+
+@media(max-width: 1514px){
+    .recording3{
+        height: 130px;
+        margin-bottom: 12px;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 1421px){
+    .recording3{
+        height: 110px;
+        margin-bottom: 12px;
+        margin-left: 15px;
+    }
+    .textRecording3{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 0;
+        font-size: 20px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 1253px){
+    .recording3{
+        height: 100px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+    }
+    .textRecording3{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 0;
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 1146px){
+    .recording3{
+        height: 90px;
+        margin-bottom: 12px;
+        margin-left: 4px;
+    }
+    .textRecording3{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 0;
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 991px){
+    .recording3{
+        height: 90px;
+        margin-bottom: 12px;
+        margin-left: 25%;
+
+    }
+    .textRecording3{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 0;
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 1593px){
+    .textFavoriteReturn{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        text-align: left;
+        font-size: 30px;
+        margin-left: 3%;
+        margin-right: 30%;
+    }
+}
+
+@media(max-width: 767px){
+    .recording3{
+        height: 130px;
+        margin-bottom: 12px;
+        margin-left: 35%;
+    }
+
+    .textRecording3{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 0;
+        font-size: 23px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 669px){
+
+    .textRecording3{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 0;
+        font-size: 23px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 587px){
+
+    .textRecording3{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        margin-top: 0;
+        font-size: 23px;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 474px){
+    .textFavoriteReturn{
+        color: #CCE5FF;
+        font-family: "Garamond";
+        text-align: left;
+        font-size: 30px;
+        margin-left: 3%;
+        margin-right: 10%;
+    }
+}
