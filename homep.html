@@ -15,16 +15,11 @@
 
 <body id="fondo">
     <!--primer navbar donde se muestra el logo y tambien la parte del usuario-->
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" id="navbar1">
             <div class="container-fluid">
                 <a class="navbar-brand" href="homep.html"><img id="imageHome" src="imagenes/Simbolo Konrad.png"
                         alt="logo konrad"></a>
-                <button type="button" class="btn btn-outline-secondary" id="noche" onclick="noche();">Noche</button>
-                <button type="button" class="btn btn-outline-secondary" id="dia" onclick="dia();">Día</button>
-                <button type="button" class="btn btn-outline-primary" id="titulocolor-1" onclick="titulocolor1();">Titulos color 1</button>
-                <button type="button" class="btn btn-outline-primary" id="titulocolor-2" onclick="titulocolor2();">Titulos color 2</button>
                 <ul class="navbar-nav">
                     <li class="text-end">
                         <div>
@@ -35,11 +30,11 @@
                         <a class="nav-link dropdown-toggle" id="textUser" data-bs-toggle="dropdown" href="#"
                             role="button" aria-haspopup="true" aria-expanded="false">Usuario</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item titulocolor-1" href="#">Perfil</a>
-                            <a class="dropdown-item titulocolor-1" href="favoritos.html">Favoritos</a>
-                            <a class="dropdown-item titulocolor-1" href="#">Configuración</a>
-                            <a class="dropdown-item titulocolor-1" href="#">Acerca de</a>
-                            <a class="dropdown-item titulocolor-1" href="login.html">Cerrar Sesión</a>
+                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="favoritos.html">Favoritos</a>
+                            <a class="dropdown-item" href="#">Configuración</a>
+                            <a class="dropdown-item" href="Contactenos.html">Contactenos</a>
+                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
                         </div>
                     </li>
                 </ul>
@@ -109,15 +104,39 @@
             </div>
         </nav>
     </div>
-    <br>
-    <br>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark container-fluid" id="navbar3">
+            <div class="container-fluid">
+                <button class="navbar-toggler w-100 navbar-toggler-color" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                    <li class="d-flex"><button type="button" class="btn btn-outline-secondary ps-5 mx-5" id="noche"
+                            onclick="noche();">Noche</button></li>
+                    <li class="d-flex"><button type="button" class="btn btn-outline-secondary ps-5 mx-5" id="dia"
+                            onclick="dia();">Día</button></li>
+                    <li class="d-flex"><button type="button" class="btn btn-outline-primary ps-5 mx-5"
+                            id="titulocolor-1" onclick="titulocolor1();">Titulos color 1</button></li>
+                    <li class="d-flex"><button type="button" class="btn btn-outline-primary ps-5 mx-5"
+                            id="titulocolor-2" onclick="titulocolor2();">Titulos color 2</button></li>
+                    <li class="d-flex"><button type="button" class="btn btn-outline-danger ps-5 mx-5" id="titulocolor-2"
+                            onclick="titulocolor2();">Ocultar</button></li>
+                    <li class="d-flex"><button type="button" class="btn btn-outline-danger ps-5 mx-5" id="titulocolor-2"
+                            onclick="titulocolor2();">Mostrar</button></li>
+
+                </div>
+            </div>
+        </nav>
+    </div>
 
     <!--parte donde estan los videos, parte de la izquierda -->
     <div class="container-fluid" id="void3">
         <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="outLine titulo-l titulocolor-1">
-                    <h1 class="text-center titulo-izquierdo">Ultimas Grabaciones Publicadas.</h1>
+                <div class="outLine titulo-l">
+                    <h1 class="text-center titulo-izquierdo titulocolor-1 titulocolor-2" id="titulocolor-1">Ultimas Grabaciones Publicadas.</h1>
                     <div class="row">
                         <div class="text-center col-md-4 col-lg-4">
                             <a href="home.html"><img class="recording2" src="imagenes/Simbolo Grabacion.png"
@@ -159,8 +178,8 @@
                         </div>
                     </div>
                     <div>
-                        <a class="text-center nav-link btn-favoritos ps-3" id="textFavorite" href="favoritos.html" role="button"
-                            aria-haspopup="true" aria-expanded="false">Favoritos<img id="imageArrow"
+                        <a class="text-center nav-link btn-favoritos ps-3" id="textFavorite" href="favoritos.html"
+                            role="button" aria-haspopup="true" aria-expanded="false">Favoritos<img id="imageArrow"
                                 src="imagenes/imagen flecha.png" alt="imagen flecha"></a>
                         </button>
                     </div>
@@ -171,7 +190,7 @@
             <div class="col-sm-12 col-md-8 col-lg-8">
                 <div class="outLine">
                     <div class="row">
-                        <div class="col-lg-12 titulocolor-1">
+                        <div class="col-lg-12">
                             <img id="books" src="imagenes/imagen libros.png" alt="simbolo de libros"><br>
                             <a href="home.html" class="text-decoration-none">
                                 <p class="btn-favoritos ps-5">Cod. Curso-Nom. Materia</p>
@@ -194,7 +213,10 @@
             </div>
         </div>
     </div>
-    
+    <footer class="col-md-12 text-center">
+        <a href="Contactenos.html" class="text-center"><button type="button"
+                class="btn-lg btn-secondary text-center">Contactenos</button></a>
+    </footer>
 </body>
 
 </html>

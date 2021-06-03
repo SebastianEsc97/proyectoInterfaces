@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="estilos/custom-style-home.css">
     <link rel="stylesheet" href="estilos/estilos.css">
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/botones.js"></script>
 </head>
 
 <body>
@@ -18,8 +19,15 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark " id="navbar1">
             <div class="container-fluid">
+
                 <a class="navbar-brand" href="homep.html"><img id="imageHome" src="imagenes/Simbolo Konrad.png"
                         alt="logo konrad"></a>
+                <button type="button" class="btn btn-outline-secondary" id="noche" onclick="noche();">Noche</button>
+                <button type="button" class="btn btn-outline-secondary" id="dia" onclick="dia();">Día</button>
+                <button type="button" class="btn btn-outline-primary" id="titulocolor-1"
+                    onclick="titulocolor1();">Titulos color 1</button>
+                <button type="button" class="btn btn-outline-primary" id="titulocolor-2"
+                    onclick="titulocolor2();">Titulos color 2</button>
                 <ul class="navbar-nav">
                     <li class="text-end">
                         <div>
@@ -154,15 +162,15 @@
                         </div>
                     </div>
                     <div>
-                        <a class="text-center nav-link btn-favoritos ps-3" id="textFavorite" href="favoritos.html" role="button"
-                            aria-haspopup="true" aria-expanded="false">Favoritos<img id="imageArrow"
+                        <a class="text-center nav-link btn-favoritos ps-3" id="textFavorite" href="favoritos.html"
+                            role="button" aria-haspopup="true" aria-expanded="false">Favoritos<img id="imageArrow"
                                 src="imagenes/imagen flecha.png" alt="imagen flecha"></a>
                         </button>
                     </div>
                 </div>
             </div>
 
-    <!--parte donde estan los cursos y videos de la semana, parte de la derecha-->
+            <!--parte donde estan los cursos y videos de la semana, parte de la derecha-->
             <div class="col-sm-12 col-md-8 col-lg-8">
                 <div class="outLine">
                     <div class="row">
@@ -170,7 +178,7 @@
                             <img id="books" src="imagenes/imagen libros.png" alt="simbolo de libros">
                         </div>
                         <div class="col-sm-10 col-md-10 col-lg-10">
-                            <p  id="text2">Cod. Curso-Nom. Materia</p>
+                            <p id="text2">Cod. Curso-Nom. Materia</p>
                         </div>
                     </div>
                     <br>
@@ -213,6 +221,10 @@
             </div>
         </div>
     </div>
+    <footer class="col-md-12 text-center">
+        <a href="Contactenos.html" class="text-center"><button type="button"
+                class="btn-lg btn-secondary text-center">Contactenos</button></a>
+    </footer>
 </body>
 
 </html>

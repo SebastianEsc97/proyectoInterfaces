@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="estilos/custom-style-home.css">
     <link rel="stylesheet" href="estilos/estilos.css">
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/botones.js"></script>
 </head>
 
 <body>
@@ -17,9 +18,15 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" id="navbar1">
-            <div class="container-fluid">
+            <div class="container-fluid">         
                 <a class="navbar-brand" href="homep.html"><img id="imageHome" src="imagenes/Simbolo Konrad.png"
                         alt="logo konrad"></a>
+                <button type="button" class="btn btn-outline-secondary" id="noche" onclick="noche();">Noche</button>
+                <button type="button" class="btn btn-outline-secondary" id="dia" onclick="dia();">Día</button>
+                <button type="button" class="btn btn-outline-primary" id="titulocolor-1"
+                    onclick="titulocolor1();">Titulos color 1</button>
+                <button type="button" class="btn btn-outline-primary" id="titulocolor-2"
+                    onclick="titulocolor2();">Titulos color 2</button>
                 <ul class="navbar-nav">
                     <li class="text-end">
                         <div>
@@ -166,8 +173,8 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-3">
                             <img class="recording3" src="imagenes/Simbolo Grabacion.png" alt="simbolo de grabación">
-                                <p class="textRecording3">Nom. Materia</p>
-                                <p class="textRecording3">Fecha Publicación</p>
+                            <p class="textRecording3">Nom. Materia</p>
+                            <p class="textRecording3">Fecha Publicación</p>
                         </div>
 
                         <div class="col-sm-12 col-md-6 col-lg-3">
@@ -220,13 +227,17 @@
                     <div>
                         <a class="nav-link textFavoriteReturn" href="home.html" role="button" aria-haspopup="true"
                             aria-expanded="false"><img id="imageArrow" src="imagenes/imagen flecha2.png"
-                            alt="imagen flecha">Volver a Cursos</a>
+                                alt="imagen flecha">Volver a Cursos</a>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="col-md-12 text-center">
+        <a href="Contactenos.html" class="text-center"><button type="button"
+                class="btn-lg btn-secondary text-center">Contactenos</button></a>
+    </footer>
 </body>
 
 </html>

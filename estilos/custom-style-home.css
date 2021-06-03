@@ -113,6 +113,9 @@ h1{
     background-color: #1a1a1a !important;
 
 }
+#navbar3{
+    background-color: black;
+}
 
 .navbar-toggler-color{
     border-color: transparent!important;
